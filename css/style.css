@@ -141,3 +141,35 @@ ol li {
 	width: 100%;
   }
 }
+
+@media screen and (min-width: 510px) {
+  #container {
+    text-align: center;
+    margin: 3% auto 0 auto;
+    width: 65%;
+  }
+
+  .fontsize {
+    font-size: 1.2em;
+  }
+  
+  input {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #container {
+    width: 450px;
+    float: right;
+    margin-right: 3%;
+  }
+    
+  .font-size {
+    font-size: 1em;
+  }
+  
+  #submit {
+    width: 26%;
+  }
+}
