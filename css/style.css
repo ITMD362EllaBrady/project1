@@ -78,7 +78,7 @@ ol li {
   transition: 0.3s;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
   body {
 	background-size: 100%;
   }
@@ -142,6 +142,67 @@ ol li {
   }
 }
 
-@media screen and (min-width: 510px) {
-
+@media screen and (min-width: 600px) {
+  body {
+	background-size: 100%;
+  }
+  
+  h1 {
+	font-size: 2em;
+	padding: 1em;
+  }
+  
+  p {
+	padding-bottom: 0.5em;
+  }
+  
+  #content {
+	padding-top: 1em;
+	box-sizing: content-box;
+  }
+  
+  #input-name {
+	padding: 0.6em 1em;
+	text-align: left;
+  }
+  
+  #input-name label {
+	font-weight: bolder;
+  }
+  
+  #input-name input {
+	box-sizing: border-box;
+	margin: 0.4em 0 0 0;
+	width: 100%;
+  }
+  
+  #input-email {
+	padding: 0.6em 1em;
+	text-align: left;
+  }
+  
+  #input-email label {
+	font-weight: bolder;
+  }
+  
+  #input-email input {
+	box-sizing: border-box;
+	margin: 0.4em 0 0 0;
+	width: 100%;
+  }
+  
+  #input-phone {
+	padding: 0.6em 1em;
+	text-align:left;
+  }
+  
+  #input-phone label {
+	font-weight: bolder;
+  }
+  
+  #input-phone input {
+	box-sizing: border-box;
+	margin: 0.4em 0 0 0;
+	width: 100%;
+  }
 }
