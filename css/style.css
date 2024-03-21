@@ -1,7 +1,7 @@
 body {
   background-image: url("../images/runway.jpg");
   background-size: cover;
-  font-family: 'Andika', sans-serif;
+  font-family: 'Andika', 'Arial', sans-serif;
   font-size: 22px;
   margin-top: -20px;
 }
