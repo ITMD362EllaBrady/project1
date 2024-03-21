@@ -157,19 +157,3 @@ ol li {
     width: 100%;
   }
 }
-
-@media screen and (min-width: 768px) {
-  #container {
-    width: 450px;
-    float: right;
-    margin-right: 3%;
-  }
-    
-  .font-size {
-    font-size: 1em;
-  }
-  
-  #submit {
-    width: 26%;
-  }
-}
