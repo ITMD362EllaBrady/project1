@@ -2,36 +2,30 @@ body {
   background-image: url("../images/runway.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position:  relative;
+  background-position: center;
   font-family: 'Andika', 'Arial', sans-serif;
   font-size: 22px;
-  margin-top: -20px;
+  margin: 0;
+  padding: 0;
 }
 
 #content {
-  margin: 3em 1em;
-  padding: 5em;
-  padding-top: 1em;
+  margin: 3em auto;
+  padding: 3em;
   position: relative;
   box-shadow: 0px 0px 8px #7e7e7e;
-  box-sizing: content-box;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 90px;
-  padding-bottom: 180px;
-  max-width: 800px;
-  height: 330px;
-  border: solid 5px;
+  border: solid 5px #4b1259;
   border-radius: 1em;
-  border-color: #4b1259;
   text-align: center;
   background: rgba(206, 76, 238, 0.45);
+  max-width: 800px;
 }
 
 h1 {
   color: white;
   font-size: 2em;
-  padding: 1em;
+  padding: 1em 0;
+  margin: 0;
 }
 
 p {
@@ -43,74 +37,51 @@ ol li {
   list-style-type: none;
 }
 
-#input-name {
-  color: white;
-  padding: 0.6em 1em;
-  text-align: left;
-}
-
-#input-name label {
-  font-weight: bolder;
-}
-  
-#input-name input {
-  box-sizing: border-box;
-  margin: 0.4em 0 0 0;
-  width: 100%;
-}
-
-#input-email {
-  color: white;
-  padding: 0.6em 1em;
-  text-align: left;
-}
-#input-email label {
-  font-weight: bolder;
-}
-  
-#input-email input {
-  box-sizing: border-box;
-  margin: 0.4em 0 0 0;
-  width: 100%;
-}
-  
+#input-name,
+#input-email,
 #input-phone {
   color: white;
-  padding: 0.6em 1em;
-  text-align:left;
+  padding: 0.6em 0;
+  text-align: left;
 }
 
+#input-name label,
+#input-email label,
 #input-phone label {
-  font-weight: bolder;
+  font-weight: bold;
 }
-  
+
+#input-name input,
+#input-email input,
 #input-phone input {
   box-sizing: border-box;
-  margin: 0.4em 0 0 0;
+  margin: 0.4em 0;
   width: 100%;
+  padding: 0.6em;
 }
-  
+
+#input-submit-container {
+  position: relative;
+  margin-top: 20px;
+}
 
 #input-submit {
   padding: 0.8em;
   margin-top: 20px;
-  margin-left: 110px;
   opacity: 0.8;
   border: none;
   cursor: pointer;
   height: 50px;
-  width: 50%;
-  position: relative;
+  width: 70%;
   font-weight: bold;
 }
 
 #submit {
   padding: 0.8em;
-  box-sizing: border-box;
   border-radius: 0.4em;
   font-family: 'Andika', 'Arial', sans-serif;
   font-size: 0.8em;
-  margin-left: 10px;
+  margin-left: 200px;
   margin-top: -10px;
 }
 
@@ -120,57 +91,29 @@ ol li {
   transition: 0.3s;
 }
 
-@media (min-width: 600px) and (max-width: 899px) {
-	
-body {
-  background-size: cover;
-}
-	
-#content {
-  width: 70%;
-  padding: 3em;
-  box-sizing: content-box;
+@media (max-width: 899px) {
+  #content {
+    width: 70%;
+    padding: 2em;
+  }
+  
+  #input-submit {
+	position: static;
 }
 
-h1 {
-  font-size: 1.5em;
-  padding: 0.5em;
-}
-
-#input-name input,
-#input-email input,
-#input-phone input {
-  width: calc(100% - 2em);
-}
-
-}
-
-@media screen and (max-width: 767px) {
-
-body {
-  background-size: cover;
-}
-
-#content {
-  width: 90%;
-  padding: 2em;
-  box-sizing: content-box;
-}
-
-h1 {
-  font-size: 1.2em;
-  padding: 0.3em;
-}
-
-#input-submit {
-  width: 70%;
-  margin-left: 15%;
-}
-
-#input-name input,
-#input-email input,
-#input-phone input {
-  width: calc(100% - 2em);
-}
-
+@media (max-width: 599px) {
+  #content {
+    width: 90%;
+    padding: 1em;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  #input-submit {
+    width: 70%;
+    margin: 20px auto;
+	position: static;
+  }
 }
