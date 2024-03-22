@@ -19,7 +19,6 @@ body {
   margin-right: auto;
   margin-top: 90px;
   padding-bottom: 180px;
-  width: 40%;
   max-width: 800px;
   height: 330px;
   border: solid 5px;
@@ -109,7 +108,7 @@ ol li {
   padding: 0.8em;
   box-sizing: border-box;
   border-radius: 0.4em;
-  font-family: 'Andika', sans-serif;
+  font-family: 'Andika', 'Arial', sans-serif;
   font-size: 0.8em;
   margin-left: 10px;
   margin-top: -10px;
