@@ -2,6 +2,7 @@ body {
   background-image: url("../images/runway.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position:  relative;
   font-family: 'Andika', 'Arial', sans-serif;
   font-size: 22px;
   margin-top: -20px;
@@ -19,6 +20,7 @@ body {
   margin-top: 90px;
   padding-bottom: 180px;
   width: 40%;
+  max-width: 800px;
   height: 330px;
   border: solid 5px;
   border-radius: 1em;
@@ -119,10 +121,10 @@ ol li {
   transition: 0.3s;
 }
 
-@media screen and (min-width: 600px) and (max-width: 899px) {
+@media (min-width: 900px) {
 	
 body {
-  background-size: cover;
+  background-size: 100%;
 }
 	
 #content {
@@ -136,12 +138,18 @@ h1 {
   padding: 0.5em;
 }
 
+#input-name input,
+#input-email input,
+#input-phone input {
+  width: calc(100% - 2em); /* Adjusted input width to account for padding */
 }
 
-@media screen and (max-width: 767px) {
+}
+
+@media (max-width: 1500px) {
 
 body {
-  background-size: cover;
+  background-size: 100%;
 }
 
 #content {
@@ -158,6 +166,12 @@ h1 {
 #input-submit {
   width: 70%;
   margin-left: 15%;
+}
+
+#input-name input,
+#input-email input,
+#input-phone input {
+  width: calc(100% - 2em); /* Adjusted input width to account for padding */
 }
 
 }
