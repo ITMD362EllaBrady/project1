@@ -121,10 +121,10 @@ ol li {
   transition: 0.3s;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 600px) and (max-width: 899px) {
 	
 body {
-  background-size: 100%;
+  background-size: cover;
 }
 	
 #content {
@@ -141,15 +141,15 @@ h1 {
 #input-name input,
 #input-email input,
 #input-phone input {
-  width: calc(100% - 2em); /* Adjusted input width to account for padding */
+  width: calc(100% - 2em);
 }
 
 }
 
-@media (max-width: 1500px) {
+@media screen and (max-width: 767px) {
 
 body {
-  background-size: 100%;
+  background-size: cover;
 }
 
 #content {
@@ -171,7 +171,7 @@ h1 {
 #input-name input,
 #input-email input,
 #input-phone input {
-  width: calc(100% - 2em); /* Adjusted input width to account for padding */
+  width: calc(100% - 2em);
 }
 
 }
