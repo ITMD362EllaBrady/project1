@@ -140,20 +140,109 @@ ol li {
 	margin: 0.4em 0 0 0;
 	width: 100%;
   }
+  
+  #container {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 0;
+    margin-top: auto;
+    float: right;
+ }
 }
 
-@media screen and (max-width: 768px) {
-  /* Adjustments for tablets */
-  #content {
-    width: 80%;
-    padding: 3em;
+@media screen and (min-width: 768px) {
+  body {
+    background-size: 100%;
   }
+  
+  h1 {
+    font-size: 2em;
+    padding: 1em;
+  }
+  
+  p {
+    padding-bottom: 0.5em;
+  }
+  
+  #content {
+    padding-top: 1em;
+	box-sizing: content-box;
+  }
+  
+  #input-name,
+  #input-email,
+  #input-phone {
+    padding: 0.4em 1em;
+    text-align: left;
+  }
+  
+  #input-name label,
+  #input-email label,
+  #input-phone label {
+    font-weight: bolder;
+  }
+  
+  #input-name input,
+  #input-email input,
+  #input-phone input {
+    box-sizing: border-box;
+    margin: 0.2em 0 0 0;
+    width: 100%;
+  }
+  
+  #container {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 0;
+    margin-top: auto;
+    float: right;
+ }
 }
 
-@media screen and (max-width: 600px) {
-  /* Adjustments for phones */
-  #content {
-    width: 90%;
-    padding: 2em;
+@media screen and (min-width: 600px) {
+  body {
+    background-size: 100%;
   }
+  
+  h1 {
+    font-size: 2em;
+    padding: 1em;
+  }
+  
+  p {
+    padding-bottom: 0.5em;
+  }
+  
+  #content {
+    padding-top: 1em;
+  }
+  
+  #input-name,
+  #input-email,
+  #input-phone {
+    padding: 0.6em 1em;
+    text-align: left;
+  }
+  
+  #input-name label,
+  #input-email label,
+  #input-phone label {
+    font-weight: bolder;
+  }
+  
+  #input-name input,
+  #input-email input,
+  #input-phone input {
+    box-sizing: border-box;
+    margin: 0.4em 0 0 0;
+    width: 100%;
+  }
+  
+  #container {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 0;
+    margin-top: auto;
+    float: right;
+ }
 }
